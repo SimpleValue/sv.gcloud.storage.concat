@@ -36,10 +36,10 @@
   ;; example:
   (concat-log-files
    {:input-files [{:bucket "your-bucket"
-                   :path "input1.log"}
+                   :name "input1.log"}
                   {:bucket "your-bucket"
-                   :path "input2.log"}]
+                   :name "input2.log"}]
     :output-file {:bucket "your-bucket"
-                  :path "output.gz"}
+                  :name "output.gz"}
     :gzip true})
   )
