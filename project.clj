@@ -1,4 +1,4 @@
-(defproject sv/gcloud.storage.concat "0.1.1-SNAPSHOT"
+(defproject sv/gcloud.storage.concat "0.1.1"
   :description "Concatenates files on Google Storage into one file."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
